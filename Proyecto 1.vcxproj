@@ -129,6 +129,7 @@
     <ClCompile Include="Especialidad.cpp" />
     <ClCompile Include="Instructor.cpp" />
     <ClCompile Include="Proyecto 1.cpp" />
+    <ClCompile Include="Rutina.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cliente.h" />
@@ -136,6 +137,7 @@
     <ClInclude Include="Ejercicio.h" />
     <ClInclude Include="Especialidad.h" />
     <ClInclude Include="Instructor.h" />
+    <ClInclude Include="Rutina.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
