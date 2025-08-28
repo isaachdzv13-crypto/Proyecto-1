@@ -15,9 +15,9 @@ Instructor::Instructor(string* ced, string* nom, string* telef, string* correo, 
 Instructor::~Instructor()
 {
 	delete nCedula; delete nombreC; delete telef; delete correo; delete fechaNaci;
-	for (int i = 0; i < can; i++) {
+	/*for (int i = 0; i < can; i++) {
 		delete vecEsp[i];
-	}
+	}*/
 	delete[] vecEsp;
 }
 

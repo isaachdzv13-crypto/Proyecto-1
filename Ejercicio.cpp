@@ -42,9 +42,8 @@ void Ejercicio::setTipo(string* tipo)
 string* Ejercicio::toString()
 {
 	stringstream s;
-	s << "---------------------------" << endl;
-	s << "Nombre del ejercicio: " << *(getNombre()) << endl;
-	s << "Area de Enfoque: " << *(getTipo()) << endl;
-	s << "---------------------------" << endl;
+	
+	s << "Nombre del ejercicio: " << *(getNombre());s << "  Area de Enfoque: " << *(getTipo()) << endl;
+	
 	return new string(s.str());
 }

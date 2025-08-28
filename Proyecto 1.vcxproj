@@ -123,20 +123,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BateriaEjercicios.cpp" />
+    <ClCompile Include="ClaseGrupal.cpp" />
     <ClCompile Include="Cliente.cpp" />
     <ClCompile Include="ContenedoraEspecialidades.cpp" />
     <ClCompile Include="Ejercicio.cpp" />
     <ClCompile Include="Especialidad.cpp" />
     <ClCompile Include="Instructor.cpp" />
+    <ClCompile Include="Interfaz.cpp" />
     <ClCompile Include="Proyecto 1.cpp" />
-    <ClCompile Include="Rutina.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BateriaEjercicios.h" />
+    <ClInclude Include="ClaseGrupal.h" />
     <ClInclude Include="Cliente.h" />
     <ClInclude Include="ContenedoraEspecialidades.h" />
     <ClInclude Include="Ejercicio.h" />
     <ClInclude Include="Especialidad.h" />
     <ClInclude Include="Instructor.h" />
+    <ClInclude Include="Interfaz.h" />
     <ClInclude Include="Rutina.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
